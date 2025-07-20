@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="#" class="logo">Port<span>folio</span></a>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <!-- <li><a href="#" class="Signup">Signup / Login</a></li> -->
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"  ></i>
+            <a href="images/Biswajit Jana Resume(2).pdf" download class="Resume">Resume</a>
+        </nav>
+        <!--Section Class=home-->
+        <div class="home-content">
+            <h1>Hello,</h1>
+            <h3>I'm <span>Biswajit Jana</span></h3>
+            <h3>FullStack Developer</h3>
+            <p>Hello! I'm Passinate Full Stack Developer with a strong <br> foundatio in both fron-end and back-end technologies.
+            </p>
+            <div class="home-sci">
+                <a href="#about">More About Me</a>
+            </div>
+            <div class="home-about">
+                <a href="https://www.facebook.com/profile.php?id=100015167474194&mibextid=ZbWKwL" style="color:#1877F2" ><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#" style="color:#bc2a8d"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" style="color:black" ><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.youtube.com/@BISWAJITJANA-fc6ly/videos" style="color:red"><i class="fa-brands fa-square-youtube"></i></a>
+                
+            </div>
+        </div>
+        <!--Image Section-->
+        <div class="images">
+             <img src="images/Biswajit.jpeg" alt="Biswajit">
+
+        </div>
+    </div>
+    
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Biswajit.jpeg" alt="Biswajit2">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! I'm Biswajit Jana, a passionate and motivated Full Stack Developer with a strong foundation in 
+                        both front-end and back-end technologies. As a recent graduate in Computer Science Engineering, I've honed my 
+                        skills in HTML, CSS, JavaScript, and various frameworks to create dynamic and responsive web applications. 
+                        I thrive on solving complex problems and continuously learning new technologies to improve my craft.
+                        Currently, I'm focused on building my portfolio and seeking opportunities to apply my knowledge in real-world projects.
+                    </p>
+    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/app interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship at XYZ</span><br>Built a CRUD web app using MERN stack</li>
+                            <li><span>Freelance Projects</span><br>Landing pages and eCommerce templates</li>
+                        </ul>
+                    </div>
+    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Full Stack Bootcamp</span><br>Online Course, 2024-2025</li>
+                            <li><span> Bachelor of Engineering in CSE</span><br>Dr.C.V.Raman University,(2020)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--------------------------------------------Skill----------------------->
+    <div id="skill">
+        <div class="container">
+            <h1 class="skill-title">My Skill</h1>
+            <div id="skill-list">
+                
+                    <div><img src="images/download (1).png" alt="html"><h3>HTML</h3></div>
+                    <div><img src="images/download.png" alt="css"><h3>CSS</h3></div>
+                    <div><img src="images/download (2).png" alt="JavaScript"><h3>javaScript</h3></div>
+                    <div><img src="images/download (5).png" alt="BootStar"><h3>BootStar</h3></div>
+                    <div><img src="images/download (3).png" alt="React"><h3>React</h3></div>
+                    <div><img src="images/download (4).png" alt="NodeJs"><h3>nodeJs</h3></div>
+                    <div><img src="images/MongoDB.png" alt="mongoDB"><h3>mongoDB</h3></div>
+                    <div><img src="images/download (6).png" alt="Java"><h3>Java</h3></div>
+                    <div><img src="images/download (7).png" alt="Git"><h3>Git</h3></div>
+                    <div><img src="images/download (8).png" alt="GitHub"><h3>GitHub</h3></div>
+                
+                
+                    
+                    
+                    
+               
+                
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------Project--------------------------------------------->
+    <div id="project">
+        <div class="contaner">
+              <h1 class="sub-title">Project</h1>
+              <div class="project-name">
+                   <div>
+                      <div class="work">
+                         <img src="images/Screenshot (30).png" alt="Project1">
+                         <i class="fa-brands fa-github"></i>
+                         <i class="fa-regular fa-link"></i>
+                      </div>
+                      
+                      
+                       <div class="work">
+                         <img src="images/Screenshot (29).png" alt="Dami1">
+                         <i class="fa-brands fa-github"></i>
+                         <i class="fa-regular fa-link"></i>
+                        </div>
+                        <div class="work">
+                            <img src="images/Screenshot (2).png" alt="Dami2">
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fa-regular fa-link"></i>
+                        </div>
+                   </div>
+                  
+              </div>
+        </div>
+       
+    </div>
+     <!--------------------Contact Information------------------------------------------------->
+     <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="row">
+                
+                <div class="contact-left">
+                    
+                    <a href="biswajitjana0409@gmail.com" style="color:#b03a2c"><i class="fa-regular fa-envelope"></a></i>  biswajitjana0409@gmail.com  </a><br><br>
+                    <a href="7908553178"  style="color:#34C759 "><i class="fa-solid fa-phone"   ></i> </a>7908553178
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100015167474194&mibextid=ZbWKwL" style="color:#1877F2"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""style="color:#000"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="" style="color:#bc2a8d"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" style="color:#FF0000"><i class="fa-brands fa-square-youtube"></i></a>
+
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="number" mobile="Mobile" placeholder="Your mobile number" required>
+                        <textarea name="Message" rows="8" placeholder="Your Messagea"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+            
+     </div>
+     <footer>
+        <p>&copy; 2024 Your website Name. All rights reserved.</p>
+     </footer>
+     
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(event, tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        <!--Demo JavaScript-->
+       /* let navMenu = document.querySelector("nav ul");
+    let menuIcon = document.querySelector(".fa-bars");
+    let closeIcon = document.querySelector(".fa-times");
+
+    function openmenu() {
+        navMenu.style.right = "0"; // Show menu
+    }
+
+    function closemenu() {
+        navMenu.style.right = "-200px"; // Hide menu off-screen
+    }
+    </script>-->
+    <script>
+        var sidemue=document.getElementById("sidemenu");
+    </script>*/
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(event, tabname) {
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+    <script>
+       var sidemeu= document.getElementById("sidemenu");
+       function openmenu(){
+        sidemue.style.right="0";
+       }
+       function closemenu(){
+        sidemue.style.right="-200px";
+       }
+    </script>
+    <script>
+        form.addEventListener('submit', function(e) {
+            if (!name.value || !email.value || !message.value) {
+              e.preventDefault();
+             alert('Please fill all fields.');
+        }
+       });
+
+    </script>
+    
+   
+  </body>
+</html>
